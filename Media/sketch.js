@@ -25,6 +25,10 @@ function draw() {
   background(220);
   //draws the current frame
   image(img[frame],250,250,500,500);
+  rectMode(CENTER)
+  textStyle(BOLD)
+  textSize(20)  
+  text("Press Space",250,10,150)
 
   //selects the next frame to be drawn, resets to the first frame
   //if out of images
